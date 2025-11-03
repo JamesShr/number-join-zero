@@ -2,12 +2,12 @@
   "name": "@jamesshr/number-join-zero",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index",
+  "types": "dist/index",
   "scripts": {
     "test": "echo \"no test specified\"",
-    "build": "rimraf dist && tsc",
-    "prepublish": "npm run build",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\""
+    "build": "rm -rf dist && tsc",
+    "prepublish": "npm run build"
   },
   "author": "",
   "license": "ISC",
