@@ -1,12 +1,12 @@
 {
   "name": "@jamesshr/number-join-zero",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
     "test": "echo \"no test specified\"",
-    "build": "rm -rf dist && tsc",
+    "build": "tsc",
     "prepublish": "npm run build"
   },
   "author": "",
